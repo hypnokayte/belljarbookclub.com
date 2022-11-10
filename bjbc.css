@@ -1,0 +1,22 @@
+
+body {text-align: center; font-family: 'Helvetica', sans-serif; color: #231F20; background: #171A21; font-size: 100%;}
+header {width: 90%; max-width: 800px; margin: 0 auto; text-align: left; line-height: 1.75em; color: #484349; padding: 1em; border-radius: 10px 10px 0 0; background:#fff;}
+header p {text-align: center; margin: 0;}
+h1 {font-family: 'Bahiana', cursive; font-size: 7em; margin: 1rem 0 0 0; color: #171A21; line-height: 1em; text-align: center; color: #FF499E;}
+h2 {line-height: 1.5; margin: .75em auto .25em auto;}
+a {color: #000; border-bottom: 4px solid #76E5FC; text-decoration: none;}
+a:hover {color: #231F20; border-bottom: none; background: #76E5FC;}
+section {width: 90%; max-width: 800px; margin: 0 auto; text-align: left; line-height: 1.75em; color: #484349; padding: 1em; border-radius: 0 0 10px 10px; background:#fff;}
+article {margin-bottom: 2em; display: block; clear: both; min-height: 250px;}
+article img {float: right; margin: 1.5em 0 1.5em 2em; max-width: 200px; border-radius: 5px;}
+@media screen and (max-width: 768px) {
+	article img {float: right; width: 125px; max-width: 768px;}
+	article .description {max-width: 72%;}
+}
+@media screen and (max-width: 450px) {
+	article img {float: none; margin: 1.5em 0 0 0; width: 100%; max-width: 500px;}
+	article .description {max-width: 100%;}
+}
+article .author {font-size: .8em; margin: 0;}
+article .description {font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif; font-size: 1.2em; margin-right: 1em;}
+article .date-read {font-weight: normal; background: #76E5FC; color: #392F5A; padding: 0.5em 1em .3em 1em; margin: 0 -1em; text-transform: uppercase;font-size: 1em; letter-spacing: 3px;}
